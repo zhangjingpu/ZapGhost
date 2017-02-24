@@ -81,9 +81,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\DragHandler.cs" />
     <Compile Include="Assets\Scripts\Draggable.cs" />
     <Compile Include="Assets\Scripts\DropZone.cs" />
     <Compile Include="Assets\Scripts\Monster1Movement.cs" />
+    <Compile Include="Assets\package\Scripts\AbstractTurret.cs" />
+    <Compile Include="Assets\package\Scripts\EnemyHealthManager.cs" />
+    <Compile Include="Assets\package\Scripts\EnemyPathRoute.cs" />
+    <Compile Include="Assets\package\Scripts\EnemyWave.cs" />
+    <Compile Include="Assets\package\Scripts\EnemyWaveHandler.cs" />
+    <Compile Include="Assets\package\Scripts\Forward.cs" />
+    <Compile Include="Assets\package\Scripts\GameManager.cs" />
+    <Compile Include="Assets\package\Scripts\HealthBarManager.cs" />
+    <Compile Include="Assets\package\Scripts\LaserGunTargettingSystem.cs" />
+    <Compile Include="Assets\package\Scripts\MachineGunTargettingSystem.cs" />
+    <Compile Include="Assets\package\Scripts\ParticleRemover.cs" />
+    <Compile Include="Assets\package\Scripts\TurretTargettingSystem.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
